@@ -1,0 +1,256 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "仓库管理可视化系统"
+			}
+		},{
+            "path" : "pages/user/user",
+            "style" :
+            {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "用户中心"
+            }
+          }
+	    ,
+		{
+            "path" : "pages/register/member",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": "员工注册"
+            }
+        }
+		,
+        {
+            "path" : "pages/login/login",
+            "style" :
+            {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarTitleText": "用户登录"
+            }
+        }
+		,
+		{
+			"path" : "pages/notice/notice",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "系统公告"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/goods/goods",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "产品查询"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/my/mygoods",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "产品管理"
+			}
+		}
+		,
+		{
+			"path" : "pages/my/goods-publish",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "录入产品"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/inbound/inbound",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "产品入库"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/my/myinbound",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "查询产品入库"
+			}
+		}
+		,
+		{
+			"path" : "pages/my/inbound-publish",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "添加产品入库记录"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/outbound/outbound",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "产品出库"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/my/myoutbound",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "查询产品出库"
+			}
+		}
+		,
+		{
+			"path" : "pages/my/outbound-publish",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "添加产品出库记录"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/sales/sales",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "销售订单"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/my/mysales",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "查询销售订单"
+			}
+		}
+		,
+		{
+			"path" : "pages/my/sales-publish",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "添加销售订单"
+			}
+		}
+
+		,
+		{
+			"path" : "pages/notice/notice-detail",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+		,
+		{
+			"path" : "pages/goods/goods-detail",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+		,
+		{
+			"path" : "pages/inbound/inbound-detail",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+		,
+		{
+			"path" : "pages/outbound/outbound-detail",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+		,
+		{
+			"path" : "pages/sales/sales-detail",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"borderStyle": "black",
+		"selectedColor": "#FB7299",
+		"color": "#444444",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/select-home.png",
+				"text": "首页"
+			}
+			,{
+			"pagePath": "pages/notice/notice",
+			"iconPath": "static/tabbar/news.png",
+			"selectedIconPath": "static/tabbar/select-news.png",
+			"text": "系统公告"
+			}
+			,{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/select-user.png",
+				"text": "我的"
+			}
+		]
+	}
+	
+
+}
