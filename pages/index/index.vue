@@ -46,6 +46,18 @@
 				noticeList:[],
 				searchKey:'',
 				list: [
+					{
+						title: '产品查询',
+						icon: '/static/menu-icon/goods.png',
+						url: '/pages/goods/goods',
+						id: ''
+					},
+					{
+						title: '产品管理',
+						icon: '/static/menu-icon/manage.png',
+						url: '/pages/my/mygoods',
+						id: ''
+					}
 				],
 			}
 		},
