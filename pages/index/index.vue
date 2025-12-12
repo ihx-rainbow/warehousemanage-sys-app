@@ -57,7 +57,8 @@
 						icon: '/static/menu-icon/manage.png',
 						url: '/pages/my/mygoods',
 						id: ''
-					}
+					},
+					// test 增加了一行代码
 				],
 			}
 		},
